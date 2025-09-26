@@ -1,0 +1,1 @@
+API_KEY = "12345-abcdef-secret-key-99999"

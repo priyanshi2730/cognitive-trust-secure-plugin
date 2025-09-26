@@ -1,0 +1,17 @@
+rules:
+  - id: missing-authorization
+    patterns:
+      - pattern: |
+          @app.route($ROUTE)
+          def $FUNC(...):
+              ...
+      - pattern-not: |
+          @login_required
+          def $FUNC(...):
+              ...
+    message: "Route may be missing authorization check (add @login_required or equivalent)."
+    severity: WARNING
+    languages: [python]
+    metadata:
+      category: security
+      cwe: "CWE-285: Improper Authorization"

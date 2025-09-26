@@ -1,0 +1,9 @@
+rules:
+  - id: outdated-library
+    pattern: '"express": "4.0.0"'
+    message: "Outdated library version detected. Consider upgrading."
+    severity: WARNING
+    languages: [json]
+    metadata:
+      category: security
+      cwe: "CWE-1104: Use of Unmaintained Third Party Components"
