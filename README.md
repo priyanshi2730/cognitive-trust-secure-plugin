@@ -17,7 +17,7 @@ Setup
    
 Usage
 1. Open a Python or JavaScript file.
-2. Save the file — the extension will run Semgrep automatically.
+2. Save the file, the extension will run Semgrep automatically.
 3. Security warnings will appear as underlines in the editor and in the Problems tab.
 4. For hardcoded secrets, use the Quick Fix (lightbulb) to replace with an environment variable.
 5. You can also run “Run Semgrep Scan” manually from the Command Palette.
