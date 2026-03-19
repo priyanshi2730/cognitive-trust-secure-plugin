@@ -34,4 +34,4 @@ Roadmap / Future Work
   
 Requirements
 * Node.js (v18 or higher recommended)
-* Semgrep installed and available in your system PATH
+* Semgrep installed and available in your system PATH 
